@@ -1,0 +1,28 @@
+creation of nodes, even used in tress also
+
+class node:
+      def __init__(self,val):  #constructor
+            self.data= val
+            self.next= none
+TREE:
+1. binary tree
+2. binary search tree
+
+⦁	binary tree
+1. full binary tree:
+every node must have two or zero 0 children
+
+2. complete binary tree:
+⦁	every level must be completly filled except the last level.
+⦁	the last level node should be left as possible.
+
+
+3. perfect binary tree:
+⦁	all the leaf nodes must be at the same level
+⦁	all non leaf nodes must have 2 children
+
+4. balanced binary tree:
+height difference b/w left subtree and right subtree at any node must be max 1 and min 0.
+
+5. de- generative binary tree:
+every non leaf node must have 1 children
